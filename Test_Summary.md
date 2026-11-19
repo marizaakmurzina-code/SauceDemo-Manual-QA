@@ -7,7 +7,6 @@
 **Tester:** Mariza Akmurzina  
 **Testing Type:** Manual Functional Testing  
 **Test Environment:** Google Chrome, Windows  
-**Execution Date:** [Enter testing date]
 
 ## 2. Testing Scope
 
