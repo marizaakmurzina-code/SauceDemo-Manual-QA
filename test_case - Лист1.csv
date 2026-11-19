@@ -1,0 +1,22 @@
+,,,,,,,,
+Test Case ID,Feature,Test Scenario,Preconditions,Steps,Test Data,Expected Result,Actual Result,Status
+TC-001,Login,Login with valid credentials,Login page is open,Enter username and password; Click Login,standard_user / secret_sauce,Products page is displayed,Products page is displayed,Pass
+TC-002,Login,Login with incorrect password,Login page is open,Enter valid username and invalid password; Click Login,standard_user / wrongpassword123,Error message is displayed; Login is rejected,Error message is displayed; Login is rejected,Pass
+TC-003,Login,Login with incorrect username,Login page is open,Enter invalid username and valid password; Click Login,unknown_user_123 / secret_sauce,Error message is displayed; Login is rejected,Error message is displayed; Login is rejected,Pass
+TC-004,Login,Login with empty username,Login page is open,Leave username empty; Enter password; Click Login,Empty / secret_sauce,Username required error is displayed,Username required error is displayed,Pass
+TC-005,Login,Login with empty password,Login page is open,Enter username; Leave password empty; Click Login,standard_user / Empty,Password required error is displayed,Password required error is displayed,Pass
+TC-006,Login,Login with both fields empty,Login page is open,Leave both fields empty; Click Login,Empty / Empty,Login is rejected; Validation error is displayed,Login is rejected; Validation error is displayed,Pass
+TC-007,Login,Login with locked user,Login page is open,Enter locked user credentials; Click Login,locked_out_user / secret_sauce,Access is denied; Error is displayed,Access is denied; Error is displayed,Pass
+TC-008,Logout,Logout from application,User is logged in,Open menu; Click Logout,standard_user,User is redirected to login page,User is redirected to login page,Pass
+TC-009,Cart,Add one product to cart,User is logged in; Cart is empty,Click Add to cart; Open cart,Sauce Labs Backpack,Product appears in cart,Product appears in cart,Pass
+TC-010,Cart,Add multiple products,User is logged in; Cart is empty,Add two products; Open cart,Backpack and Bike Light,Both products appear; Cart count is 2,Both products appear; Cart count is 3,Pass
+TC-011,Cart,Remove product from cart,User is logged in; One product is in cart,Open cart; Click Remove,Sauce Labs Backpack,Product is removed; Cart count is updated,Product is removed; Cart count is updated,Pass
+TC-012,Sorting,Sort by price low to high,User is on Products page,Select Price low to high,Price low to high,Products are ordered by ascending price,Products are ordered by ascending price,Pass
+TC-013,Sorting,Sort by price high to low,User is on Products page,Select Price high to low,Price high to low,Products are ordered by descending price,Products are ordered by descending price,Pass
+TC-014,Sorting,Sort by name A to Z,User is on Products page,Select Name A to Z,Name A to Z,Products are ordered alphabetically,Products are ordered alphabetically,Pass
+TC-015,Sorting,Sort by name Z to A,User is on Products page,Select Name Z to A,Name Z to A,Products are ordered in reverse alphabetical order,Products are ordered in reverse alphabetical order,Pass
+TC-016,Checkout,Checkout with valid information,User is logged in; Cart contains a product,Open cart; Click Checkout; Fill all fields; Click Continue,Test / Student / 050000,Checkout overview page is displayed,Checkout overview page is displayed,Pass
+TC-017,Checkout,Checkout with empty first name,User is on Checkout Information page,Leave first name empty; Fill other fields; Click Continue,Empty / Student / 050000,First name required error is displayed,First name required error is displayed,Pass
+TC-018,Checkout,Checkout with empty last name,User is on Checkout Information page,Fill first name; Leave last name empty; Click Continue,Test / Empty / 050000,Last name required error is displayed,Last name required error is displayed,Pass
+TC-019,Checkout,Checkout with empty postal code,User is on Checkout Information page,Fill names; Leave postal code empty; Click Continue,Test / Student / Empty,Postal code required error is displayed,Postal code required error is displayed,Pass
+TC-020,Checkout,Complete order successfully,User is logged in; Product is in cart,Complete checkout form; Click Continue; Click Finish,Test / Student / 050000,Order confirmation is displayed,Order confirmation is displayed,Pass
