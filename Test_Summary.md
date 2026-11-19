@@ -69,6 +69,18 @@ Overall, the tested functionality demonstrated stable behavior under the execute
 
 7. Test Evidence
 
-Screenshots of selected test scenarios are available in the Screenshots/ folder.
+### TC-001 — Successful Login
+<img width="1863" height="922" alt="image" src="https://github.com/user-attachments/assets/68405359-9788-414d-b5a4-631f6fceecd8" />
+### TC-002 — Invalid Password
+<img width="854" height="628" alt="image" src="https://github.com/user-attachments/assets/b207b941-7f6b-4c57-aeb3-b718f011690d" />
+### TC-004 — Empty Username
+<img width="444" height="287" alt="image" src="https://github.com/user-attachments/assets/56f313de-cf18-4ca7-8d35-71400c9d80d5" />
+### TC-010 — Shopping Cart
+<img width="1325" height="650" alt="image" src="https://github.com/user-attachments/assets/01a80b4b-b23f-4a1f-ab90-ca0063f106d9" />
+### TC-012 — Price Sorting
+<img width="1686" height="944" alt="image" src="https://github.com/user-attachments/assets/2558d22d-2c68-47cc-b307-b33e6f67483d" />
+### TC-017 — Checkout Validation
+<img width="1309" height="641" alt="image" src="https://github.com/user-attachments/assets/211ca660-6576-4d57-8304-07180dcb6133" />
+### TC-020 — Order Completion
+<img width="568" height="550" alt="image" src="https://github.com/user-attachments/assets/fe53edb1-7cb5-44ee-9e1e-2ec268df5143" />
 
-The screenshots include evidence of successful login, validation error messages, shopping cart functionality, product sorting, checkout validation, and successful order completion.
