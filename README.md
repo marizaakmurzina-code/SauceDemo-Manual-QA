@@ -39,9 +39,21 @@ The project demonstrates test case design, functional testing, negative testing,
 - `Bug_Reports/` — documented confirmed defects
 - `Screenshots/` — test evidence
 
+
 ## Test Execution Results
 
-To be updated after manual test execution.
+| Metric | Result |
+|---|---|
+| Total Test Cases | 20 |
+| Passed | 20 |
+| Failed | 0 |
+| Blocked | 0 |
+| Pass Rate | 100% |
+
+No defects were identified during the executed test cases.
+
+See [Test Summary](Test_Summary.md) for details.
+
 
 ## Note
 
